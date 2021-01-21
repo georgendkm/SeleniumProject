@@ -1,0 +1,43 @@
+To Start Hub:  java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+To STart Node: java -Dwebdriver.chrome.driver="D:\SeleniumTraining\softwares\driverexes\chromedriver.exe" 
+-Dwebdriver.gecko.driver="D:\SeleniumTraining\softwares\driverexes\geckodriver.exe"  
+-jar selenium-server-standalone-3.141.59.jar 
+-role node  -hub http://localhost:4444/grid/register
+***********************************************************************************************************8
+
+java -Dwebdriver.chrome.driver="/users/bindu/documents/browserExe\chromedriver.exe" -jar "//users//bindu//documents//browserExe//selenium-server-standalone-3.141.59.jar" -role node  -hub http://192.168.1.84:4444/wd/hub/grid/register
+
+ -Dwebdriver.gecko.driver="D:\SeleniumTraining\softwares\driverexes\geckodriver.exe"
+ 
+
+ 
+ for register node of my own windows machine-----=
+ 
+ java -Dwebdriver.chrome.driver="C:\Users\binds\eclipse-workspace\SeleniumProject\browsers\chromedriver.exe" 
+ -Dwebdriver.gecko.driver="C:\Users\binds\eclipse-workspace\SeleniumProject\browsers\geckodriver.exe" 
+ -jar selenium-server-standalone-3.141.59.jar -role node  -hub http://localhost:4442/grid/register
+ 
+ 
+ 
+ 
+ for mac=   java -Dwebdriver.chrome.driver="/users/bindu/documents/browserExe\chromedriver.exe" 
+ -jar "//users//bindu//documents//browserExe//selenium-server-standalone-3.141.59.jar" 
+ -role node  -hub http://192.168.1.84:4444/wd/hub/grid/register
+ ***********************************************************************************************************
+ 
+ for mac===   java -jar selenium-server-standalone-3.141.59.jar" -Dwebdriver.chrome.driver="/users/bindu/documents/browserExe/chromedriver.exe" -role node  -hub http://192.168.1.84:4444/wd/hub/grid/register
+ 
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ 
+ for mac  ==  java -Dwebdriver.chrome.driver="/users/bindu/documents/browserExe\chromedriver.exe" 
+ -jar "\users\bindu\documents\browserExe\selenium-server-standalone-3.141.59.jar" -role node 
+  -hub http://192.168.1.84:4444/wd/hub/grid/register
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+  java -jar selenium-server-standalone-2.44.0.jar-role node -port 5557 http://<192.168.1.84:4444/wd/hub/grid/register -hubHost <hub machine ip> -host <remoteHost ip>
+  
+  
+  java -jar selenium-server-standalone-2.44.0.jar -role node -port 5557 http://<hub machine ip>:4444/grid/register -hubHost <hub machine ip> -host <remoteHost ip>
+ 
+Read more: https://softwaretestingboard.com/q2a/134/problems-registering-a-selenium-node-on-remote-host#ixzz6jdkco2EN

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-16T12:08:58 PST" name="Default suite" finished-at="2021-01-16T12:09:55 PST" duration-ms="56797">
+    <groups>
+    </groups>
+    <test started-at="2021-01-16T12:08:58 PST" name="Default test" finished-at="2021-01-16T12:09:55 PST" duration-ms="56797">
+      <class name="classwork.grid.Node1Windows">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:classwork.grid.Node1Windows@524d6d96]" started-at="2021-01-16T12:08:58 PST" name="launchBrowser" finished-at="2021-01-16T12:09:08 PST" duration-ms="9479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchItems()[pri:1, instance:classwork.grid.Node1Windows@524d6d96]" started-at="2021-01-16T12:09:08 PST" name="searchItems" finished-at="2021-01-16T12:09:12 PST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method signature="close()[pri:4, instance:classwork.grid.Node1Windows@524d6d96]" started-at="2021-01-16T12:09:12 PST" name="close" finished-at="2021-01-16T12:09:13 PST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- classwork.grid.Node1Windows -->
+      <class name="classwork.grid.Node1aWindows">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:08:58 PST" name="launchBrowser" finished-at="2021-01-16T12:09:10 PST" duration-ms="11440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:10 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:18 PST" duration-ms="7417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[summer dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:18 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:25 PST" duration-ms="7091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[winter dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:25 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:32 PST" duration-ms="7549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[casual dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:32 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:40 PST" duration-ms="7908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[summer dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:40 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:47 PST" duration-ms="7279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[winter dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="searchDress(java.lang.String)[pri:1, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:47 PST" name="searchDress" data-provider="jdbcData" finished-at="2021-01-16T12:09:55 PST" duration-ms="7539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[casual dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method signature="close()[pri:3, instance:classwork.grid.Node1aWindows@152aa092]" started-at="2021-01-16T12:09:55 PST" name="close" finished-at="2021-01-16T12:09:55 PST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- classwork.grid.Node1aWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

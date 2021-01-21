@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-15T00:09:47.665156600Z</date>
+  <millis>1610669387665</millis>
+  <nanos>156600</nanos>
+  <sequence>1</sequence>
+  <logger>logs\searchDress2021_01_14_16_09_47.xml</logger>
+  <level>INFO</level>
+  <class>classwork.logger.SearchLogger</class>
+  <method>searchDress</method>
+  <thread>1</thread>
+  <message>clicked the search</message>
+</record>
+<record>
+  <date>2021-01-15T00:09:47.786920900Z</date>
+  <millis>1610669387786</millis>
+  <nanos>920900</nanos>
+  <sequence>2</sequence>
+  <logger>logs\searchDress2021_01_14_16_09_47.xml</logger>
+  <level>INFO</level>
+  <class>classwork.logger.SearchLogger</class>
+  <method>searchDress</method>
+  <thread>1</thread>
+  <message>entered the search item</message>
+</record>
+</log>
